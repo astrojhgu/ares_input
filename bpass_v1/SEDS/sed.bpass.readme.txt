@@ -1,0 +1,71 @@
+Spectral Energy Distributions calculated by BPASS
+
+See Eldridge & Stanway, 2012, MNRAS, 419, 479 and references therein for details
+
+Contact: j.eldridge@auckland.ac.nz for more details.
+
+Files: sed.bpass.instant/constant.nocont/cloudy.SINgle/BINary.zXXX
+
+Are the spectral energy distributions for:
+
+  * an instantously formed stellar population with an inital mass of 1e6M(Sun) or constant star-formation rate of 1M(Sun)/yr
+  * pure stellar spectrum or Cloudy HII region model spectrum 
+  * single or binary populations
+  * with a metallicity mass fraction of the population is Z=0.XXX.
+
+In both cases the units of flux are L(Sun)/A in bins 1A size from 30A
+to 30000A. These spectra include nebular emission calculated using
+Cloudy. 
+
+The IMF is a canonical one with a slope of -1.3 between 0.1 and
+0.5M(Sun) and a typical Salpeter slope of -2.35 above 0.5M(Sun) and a
+maximum mass of 120M(Sun).
+
+Note the time bins are logarithmic insize. If adding spectra together this must be taken into account.
+
+Columns in files are:
+
+1) Wavelength / Angstroms
+2) Flux( log(Age/yrs)=6.0 ) /  L(Sun)/A.
+3) Flux( log(Age/yrs)=6.1 ) /  L(Sun)/A.
+4) Flux( log(Age/yrs)=6.2 ) /  L(Sun)/A.
+5) Flux( log(Age/yrs)=6.3 ) /  L(Sun)/A.
+6) Flux( log(Age/yrs)=6.4 ) /  L(Sun)/A.
+7) Flux( log(Age/yrs)=6.5 ) /  L(Sun)/A.
+8) Flux( log(Age/yrs)=6.6 ) /  L(Sun)/A.
+9) Flux( log(Age/yrs)=6.7 ) /  L(Sun)/A.
+10)Flux( log(Age/yrs)=6.8 ) /  L(Sun)/A.
+11)Flux( log(Age/yrs)=6.9 ) /  L(Sun)/A.
+12)Flux( log(Age/yrs)=7.0 ) /  L(Sun)/A.
+13)Flux( log(Age/yrs)=7.1 ) /  L(Sun)/A.
+14)Flux( log(Age/yrs)=7.2 ) /  L(Sun)/A.
+15)Flux( log(Age/yrs)=7.3 ) /  L(Sun)/A.
+16)Flux( log(Age/yrs)=7.4 ) /  L(Sun)/A.
+17)Flux( log(Age/yrs)=7.5 ) /  L(Sun)/A.
+18)Flux( log(Age/yrs)=7.6 ) /  L(Sun)/A.
+19)Flux( log(Age/yrs)=7.7 ) /  L(Sun)/A.
+20)Flux( log(Age/yrs)=7.8 ) /  L(Sun)/A.
+21)Flux( log(Age/yrs)=7.9 ) /  L(Sun)/A.
+22)Flux( log(Age/yrs)=8.0 ) /  L(Sun)/A.
+23)Flux( log(Age/yrs)=8.1 ) /  L(Sun)/A.
+24)Flux( log(Age/yrs)=8.2 ) /  L(Sun)/A.
+25)Flux( log(Age/yrs)=8.3 ) /  L(Sun)/A.
+26)Flux( log(Age/yrs)=8.4 ) /  L(Sun)/A.
+27)Flux( log(Age/yrs)=8.5 ) /  L(Sun)/A.
+28)Flux( log(Age/yrs)=8.6 ) /  L(Sun)/A.
+29)Flux( log(Age/yrs)=8.7 ) /  L(Sun)/A.
+30)Flux( log(Age/yrs)=8.8 ) /  L(Sun)/A.
+31)Flux( log(Age/yrs)=8.9 ) /  L(Sun)/A.
+32)Flux( log(Age/yrs)=9.0 ) /  L(Sun)/A.
+33)Flux( log(Age/yrs)=9.1 ) /  L(Sun)/A.
+34)Flux( log(Age/yrs)=9.2 ) /  L(Sun)/A.
+35)Flux( log(Age/yrs)=9.3 ) /  L(Sun)/A.
+36)Flux( log(Age/yrs)=9.4 ) /  L(Sun)/A.
+37)Flux( log(Age/yrs)=9.5 ) /  L(Sun)/A.
+38)Flux( log(Age/yrs)=9.6 ) /  L(Sun)/A.
+39)Flux( log(Age/yrs)=9.7 ) /  L(Sun)/A.
+40)Flux( log(Age/yrs)=9.8 ) /  L(Sun)/A.
+41)Flux( log(Age/yrs)=9.9 ) /  L(Sun)/A.
+42)Flux( log(Age/yrs)=10.0) /  L(Sun)/A.
+
+Last updated: 6/8/2012
